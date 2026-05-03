@@ -5,7 +5,7 @@
 **Dự án:** Ứng dụng Ghi chú (Note App) tích hợp FastAPI, Streamlit và Firebase.
 
 ## 🔗 Link Video Demo
-> **[CHÈN LINK VIDEO YOUTUBE HOẶC GOOGLE DRIVE CỦA BẠN VÀO ĐÂY]**
+> **[https://drive.google.com/file/d/11loprYGjvNjD26MUCvLY--tapO5tMO4C/view?usp=sharing]**
 
 ---
 
