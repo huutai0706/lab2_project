@@ -47,6 +47,7 @@ cd backend
 python -m uvicorn main:app --reload
 ```
 - Dấu hiệu thành công: Terminal hiển thị Uvicorn running on http://127.0.0.1:8000. Hãy giữ nguyên Terminal này.
+
 **2. Khởi chạy Frontend (Streamlit)**
 * Frontend cung cấp giao diện người dùng và tích hợp Firebase Authentication để đăng nhập.
 
