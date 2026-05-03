@@ -2,7 +2,7 @@ import streamlit as st
 import pyrebase
 import requests
 
-# 1. CẤU HÌNH FIREBASE (Thay thế bằng config của bạn)
+# 1. CẤU HÌNH FIREBASE 
 firebaseConfig = {
   "apiKey": "AIzaSyC-_UdI7P8iIpi7bYzwmUIFykmtzSTktt0",
   "authDomain": "lab2-noteapp-43f03.firebaseapp.com",
@@ -45,7 +45,7 @@ def logout():
 # 3. GIAO DIỆN CHÍNH
 st.title("Ứng dụng Ghi chú (Note App)")
 
-# KHU VỰC ĐĂNG NHẬP / ĐĂNG KÝ
+# ĐĂNG NHẬP / ĐĂNG KÝ
 if st.session_state.user is None:
     st.subheader("Đăng nhập / Đăng ký")
     email = st.text_input("Email")
@@ -59,7 +59,7 @@ if st.session_state.user is None:
         if st.button("Đăng ký"):
             signup()
 
-# KHU VỰC TÍNH NĂNG CHÍNH (Sau khi đăng nhập)
+# TÍNH NĂNG CHÍNH 
 else:
     user_email = st.session_state.user['email']
     st.write(f"Xin chào, **{user_email}**")
